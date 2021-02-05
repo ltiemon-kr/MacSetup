@@ -1,8 +1,13 @@
 # Install zsh
+echo "Installing zsh..."
 /bin/bash -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install brew
+echo "Installing brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo "Installing brew cask..."
+brew tap caskroom/cask
 
 # IDEs
 brew install --cask android-studio
