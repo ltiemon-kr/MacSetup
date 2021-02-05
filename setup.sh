@@ -11,9 +11,12 @@ brew tap caskroom/cask
 
 # IDEs
 brew install --cask android-studio
-brew install --cask android-platform-tools
 brew install --cask intellij-idea
 brew install --cask visual-studio-code
+
+# Android Specific tools
+brew install scrcpy
+brew install --cask android-platform-tools
 
 # Dev tools
 brew install git
